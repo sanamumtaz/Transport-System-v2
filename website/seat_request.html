@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Seat Request</title>
+<style>
+body{
+background-image:url('gradient.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+text-align:center;
+color:#f1f1f1;
+font-size:20px;
+}
+button{
+background:#669900;
+color:white;
+padding:14px 20px;
+margin:8px 0;
+border:none;
+cursor:pointer;
+width:100%;
+font-size:20px;
+}
+button:hover{
+opacity:0.8;
+}
+input[type=text]{
+width:100%;
+padding:8px 0px;
+margin:8px 0;
+display:inline-block;
+border;1px solid #ccc;
+box-sizing:border-box;
+font-size:20px;
+}
+select{
+padding:12px 20px;
+margin:8px 0px;
+display:inline-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+font-size:17px;
+background:#184377;
+color:white;
+text-align-last:center;
+}
+option{
+color:white;
+background:#000033;
+}
+</style>
+</head>
+<body>
+<p>Seat is not currently available. Please enter your details to put forward a request so that we can reach you when seat is available.</p>
+<br>
+<label><b>Name</b></label>
+<input type ="text" name ="name" placeholder ="Enter name" required>
+<br>
+<label><b>Email Address</b></label>
+<input type="text" name="email _address" placeholder ="Enter email address" required>
+<br>
+<label><b>Phone Number</b></label>
+<input type="text" name="ph_no" placeholder ="Enter phone no." required>
+<br>
+<label><b>Route</b></label>
+<br>
+<select name ="Select_route">
+<option>Select Route</option>
+<option value ="R1"> G, I, F & H Sectors</option>
+<option value ="R2"> Laal Kurti,Adiala</option>
+<option value ="R3"> Falcon Complex,Muslim Town</option>
+<option value ="R4"> Bahria, DHA</option>
+</select> 
+<br>
+<button type ="button"> Submit</button>
+<br>
+</body>
+</html>
