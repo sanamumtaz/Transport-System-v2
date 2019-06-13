@@ -21,3 +21,5 @@ It is simple HTML CSS based website. It is **not responsive**.
 ![image](https://user-images.githubusercontent.com/35191030/59446719-77ff6c00-8e1b-11e9-90ee-814ad084e651.png)
 ![image](https://user-images.githubusercontent.com/35191030/59446803-9e250c00-8e1b-11e9-8c36-fec0294eaa73.png)
 ![image](https://user-images.githubusercontent.com/35191030/59449009-b39c3500-8e1f-11e9-806c-ac5e16e47ee8.png)
+## Testing
+A testing report is also uploaded. It included tests like network load testing, performance testing, valiation testing, and fuzzing.
